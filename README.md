@@ -27,8 +27,9 @@
 
 **Notes** && **What's left to do**
 
-1) **Search bar 'search bt full tag name'** : I am thinking with a different approach to have as checklist and search by multiple tags
-2) **Sort by tags (button)** : Same as the previous note could be approched with checklist to sort by multiple tags
-3) **Tags checkboxes** : It is not the best for user experience as it needs to be clicked twice to be added to the item.tags
+- [ ] **Search bar 'search bt full tag name'** : I am thinking with a different approach to have as checklist and search by multiple tags
+- [ ] **Sort by tags (button)** : Same as the previous note could be approched with checklist to sort by multiple tags
+- [ ] **Tags checkboxes** : It is not the best for user experience as it needs to be clicked twice to be added to the item.tags
+- [ ] **Paging/Scrolling**
 
 

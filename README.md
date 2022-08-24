@@ -1,3 +1,13 @@
-# react-pl2kph
+Routes
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-pl2kph)
+  [] '/HomePage'
+  [] '/:itemTitle'
+  [] 'create'
+  
+
+
+TO DO LIST
+
+
+
+What's left to do 

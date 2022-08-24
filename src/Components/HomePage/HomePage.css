@@ -1,0 +1,102 @@
+.itemImg{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 700px;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+}
+
+.itemDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 700px;
+  background-color: lightgray;
+  border: 3px solid black;
+}
+
+.innerDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  border-radius: 700px;
+  background-color: lightgray;
+}
+
+.tagsDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  height: 100%;
+  
+}
+
+.searchBar {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+width: 75vw;
+height: 100%;
+border-radius: 700px;
+background-color: white;
+  border: 1px solid black;
+  margin-bottom: 10px;
+
+}
+
+.searchinput {
+background-repeat: no-repeat;
+width: 75vw;
+height: 100%;
+font-size: 16px;
+  /* border: 1.5px solid black; */
+background-color: white;
+border-radius: 700px;
+padding-left: 50px;
+font-size: 35px;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.buttonsDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 700px;
+  background-color: lightgray;
+  border: 3px solid black;
+}
+
+.itemLink{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  border-radius: 700px;
+
+}

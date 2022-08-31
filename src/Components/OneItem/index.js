@@ -64,12 +64,12 @@ const OneItem = (items) => {
 	let deleteItem = (e,itemTitle) => {
 		e.preventDefault();
 		items = items.items.filter(item => item.title !== itemTitle);
-		navigate('/HomePage')
+		navigate('/')
 	}
 
 	let goHome = (e) => {
 		e.preventDefault();
-		navigate('/HomePage')
+		navigate('/')
 	}
    
 

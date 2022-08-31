@@ -1,8 +1,9 @@
 **Routes**
 
- - [ ] /HomePage
- - [ ] /:itemTitle
- - [ ] /create
+ - [ ] Home Page '/'
+ - [ ] Each item '/:itemTitle'
+ - [ ] Edit item '/:itemTitle'
+ - [ ] Add item '/create'
   
 
 

@@ -28,7 +28,7 @@ const CreateItem = (items) => {
       e.preventDefault();
       console.log(items)
       items.items.push(newItem);
-      navigate('/HomePage')
+      navigate('/')
       console.log(newItem)
       console.log(items.items[items.items.length - 1]);
   }
@@ -94,7 +94,7 @@ const CreateItem = (items) => {
                 </button>
                 <button
                      className='oneItemButton'
-                     onClick={() => {navigate(`/HomePage`);
+                     onClick={() => {navigate(`/`);
                      }}>
                      Cancel
                   </button>

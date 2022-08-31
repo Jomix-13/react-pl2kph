@@ -49,10 +49,8 @@ export default function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route exact path="/">
-            Build a list of nature images. See comments at top for instructions.
-        </Route>
-        <Route exact path="/HomePage" element={<HomePage items={getItems()}/>}/>
+        <Route exact path="/" element={<HomePage items={getItems()}/>}/>
+        {/* <Route exact path="/HomePage" element={<HomePage items={getItems()}/>}/> */}
         <Route exact path="/:itemTitle" element={<OneItem items={getItems()}/>}/>
         <Route exact path="/create" element={<CreateItem items={getItems()}/>}/>
 
